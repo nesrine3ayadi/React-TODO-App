@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+header {
+    background: #4696e5;
+    color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: flex-end;
+    padding: 30px 100px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: right;
+   
+    font-size: 50px;
+}
+
+header label {
+    /* float: right; */
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: flex-end;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+
+input#newTask {
+    width: 100%;
+    padding: 10px 15px;
+    color: #4696e5;
+    margin-top: 20px;
+}
+#newTask::placeholder {
+  color: #4696e59e;
+  font-size: 13px;
+}
+button#addbtn {
+    width: 80px;
+    height: 40px;
+    float: right;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+main h2 {
+    text-align: center;
+    color: #acaaac;
+    margin: 50px 0;
+    font-weight: 500;
+    margin-bottom: 150px;
+    position: relative;
+}
+main h2:after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #cccccc80;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    transform: translateX(-50%);
+    left: 50%;top: 50px;
+}
+div#divTask {
+    padding: 0 150px;
+}
+
+section#sectionTask {
+    display: flex;
+}
+button#complete {
+    margin-right: 20px;
+}
+
+section#sectionTask {
+    margin: 20px 0px;
+}
+
+section#sectionTask button {
+    border: 1px solid #a59d9d;
+    background: white;
+    color: #a59d9d;
+    height: 40px;
+    width: 100px;
+}
+section#sectionTask p {
+   
+    color: #a59d9d;
+    font-size: 20px;
+    margin: 8px;
+}
+.complete{
+    text-decoration: line-through;
+}
+footer {
+    text-align: center;
+    background: whitesmoke;
+}
+footer {
+    color: grey;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-top: 1px solid #e2e2e2;
+    margin-top: 60px;
+}
